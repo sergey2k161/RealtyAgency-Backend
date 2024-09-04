@@ -13,7 +13,8 @@ public class Client
     public string? Email { get; set; }
     public string? PhotoPath { get; set; }
     public string? Description { get; set; }
-    public string? Phone { get; set; }
+    public string? PhoneNumber { get; set; }
     public int Rating { get; set; }
     public CommonUser CommonUser { get; set; }
+    public DateTime BirthDate { get; set; }
 }
