@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joyse\\RiderProjects\\RealtyAgency\\RealtyAgency\\RealtyAgency.csproj": {}
+    "G:\\All Projects\\RealtyAgency-Backend\\RealtyAgency.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joyse\\RiderProjects\\RealtyAgency\\RealtyAgency\\RealtyAgency.csproj": {
+    "G:\\All Projects\\RealtyAgency-Backend\\RealtyAgency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joyse\\RiderProjects\\RealtyAgency\\RealtyAgency\\RealtyAgency.csproj",
+        "projectUniqueName": "G:\\All Projects\\RealtyAgency-Backend\\RealtyAgency.csproj",
         "projectName": "RealtyAgency",
-        "projectPath": "C:\\Users\\joyse\\RiderProjects\\RealtyAgency\\RealtyAgency\\RealtyAgency.csproj",
+        "projectPath": "G:\\All Projects\\RealtyAgency-Backend\\RealtyAgency.csproj",
         "packagesPath": "C:\\Users\\joyse\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joyse\\RiderProjects\\RealtyAgency\\RealtyAgency\\obj\\",
+        "outputPath": "G:\\All Projects\\RealtyAgency-Backend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joyse\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -98,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

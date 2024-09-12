@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "RealtyAgency.Infrastructure.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealtyAgency.Core.Repositories.DTO.LoginDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealtyAgency.Infrastructure.Controllers.AccountController",
+    "Method": "RegisterClient",
+    "RelativePath": "api/register/client",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealtyAgency.Core.Repositories.DTO.RegisterClientDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RealtyAgency.Infrastructure.Controllers.AccountController",
+    "Method": "RegisterRealtor",
+    "RelativePath": "api/register/realtor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "RealtyAgency.Core.Repositories.DTO.RegisterRealtorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
