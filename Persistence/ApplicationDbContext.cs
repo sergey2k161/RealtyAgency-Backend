@@ -3,6 +3,7 @@ using RealtyAgency.Core.Entities.Auth;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using RealtyAgency.Core.Entities;
+using RealtyAgency.Core.Entities.Log;
 
 
 namespace RealtyAgency.Persistence;
@@ -13,6 +14,7 @@ public class ApplicationDbContext : IdentityDbContext<CommonUser, IdentityRole<i
     
     public DbSet<Client> Clients { get; set; }
     public DbSet<Realtor> Realtors { get; set; }
+    public DbSet<Apartment> Apartments { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

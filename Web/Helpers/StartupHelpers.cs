@@ -4,13 +4,16 @@ using Microsoft.EntityFrameworkCore;
 using RealtyAgency.Core.Entities.Auth;
 using RealtyAgency.Core.Repositories;
 using RealtyAgency.Core.Repositories.Client;
+using RealtyAgency.Core.Repositories.Interfaces.ApartmentRepository;
 using RealtyAgency.Core.Repositories.Realtor;
 using RealtyAgency.Core.Services;
 using RealtyAgency.Infrastructure.Repositories;
 using RealtyAgency.Infrastructure.Services;
 using RealtyAgency.Infrastructure.Services.Auth;
+using RealtyAgency.Infrastructure.Services.Log;
 using RealtyAgency.Persistence;
 using RealtyAgency.Persistence.Configurations;
+
 
 namespace RealtyAgency.Web.Helpers;
 
@@ -42,5 +45,6 @@ public static class StartupHelpers
         builder.Services.AddScoped<IRealtorRepository, RealtorRepository>();
         builder.Services.AddScoped<IAuthService, AuthService>();
         builder.Services.AddScoped<IJwtTokenService, JwtTokenService>();
+        builder.Services.AddScoped<IApartmentService, ApartmentService>();
     }
 }
